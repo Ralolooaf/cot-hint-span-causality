@@ -13,7 +13,7 @@ The classifier moves from the verdict to the span, so we can say not classifier-
 
 One model (nemotron-nano-9b ignores a 4D attention mask, so the measure does not exist on that architecture). Eligibility (27.5%/6.2%), mostly capped by GPU memory. Fidelity (87%/97%).
 
-Numbers: results/report_olmo3_7b_think.md,
+Numbers: results/report_olmo3_7b_think.pdf,
 Was edited in each chain: results/study2_span_edits_olmo3_partial.jsonl,
 Per-condition scores: results/study2_condition_scores_olmo3.jsonl,
 Harness: span_knockout_harness.py.
