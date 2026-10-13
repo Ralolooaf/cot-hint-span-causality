@@ -21,3 +21,5 @@ Harness: span_knockout_harness.py.
 Also in results/-, trace eligibility, and an earlier run with all twelve conditions at n=14/12
 
 https://github.com/ricyoung/cot-faithfulness-open-models
+
+Update: check the update1
