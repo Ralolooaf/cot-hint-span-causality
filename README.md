@@ -22,4 +22,4 @@ Also in results/-, trace eligibility, and an earlier run with all twelve conditi
 
 https://github.com/ricyoung/cot-faithfulness-open-models
 
-Update: check the update1
+Update: check the update1 file
