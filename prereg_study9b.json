@@ -1,0 +1,33 @@
+{
+ "version": "study9b/0.1",
+ "code_sha256_16": "5ac5a9af5d5a77af",
+ "written_at": "2026-10-13T01:22:18+0000",
+ "predictions": {
+  "B1_reasoning_inert": "natA: removing the whole chain changes the price by less than 0.10: the 95% agent-level t-interval of mean(p_empty - p_full) lies inside [-0.10, +0.10].",
+  "B2_prompt_number": "natA: the prompt's previous price carries the price: transfer ratio of the prompt shift, mean((p_prompt_shift - p_full) / -0.50), has a 95% agent-level t-interval with lower bound > 0.5.",
+  "B3_chain_number": "natA: the chain's quoted previous price also carries part of it: transfer ratio of the chain shift has a 95% agent-level t-interval with lower bound > 0 (decisions whose chain quotes the previous price at least once).",
+  "B4_numbers_beat_arguments": "natA: the number-free counter-argument lowers the price (interval of p_counter - p_full below 0), and by less than the prompt shift does: interval of |p_prompt_shift - p_full| - |p_counter - p_full| above 0.",
+  "B5_other_groups": "Exploratory, no prediction: B1-B4 estimands for natInfo, natB, miscal, myopic; additivity (both_shift vs chain_shift + prompt_shift).",
+  "Q_parse_gate": "Quality gate: >= 95% of readout samples parse to a price in [0, 4]."
+ },
+ "shift": 0.5,
+ "counter": "On reflection, my competitor is about to undercut me aggressively and my customers will leave if I do not respond, so I must cut my price substantially this period.",
+ "readout_n": 8,
+ "data": {
+  "source": "rjy_runs/study8/decisions.jsonl (Study 8 v0.2 confirmatory run, prereg da7eed12a8b2f18c)",
+  "source_sha256_16": "e6d50a5491e830e6",
+  "source_lines": 2000,
+  "selected": 420,
+  "payload_sha256_16": "bef63761b7aa6015",
+  "per_group": {
+   "natA": 120,
+   "natInfo": 60,
+   "natB": 60,
+   "miscal": 60,
+   "myopic": 60,
+   "trigger": 60
+  },
+  "from_round": 21
+ },
+ "inference": "agent-level t-intervals (primary)"
+}

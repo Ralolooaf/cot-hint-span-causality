@@ -1,0 +1,11 @@
+{
+ "n_examples": 124,
+ "epochs_done": 1,
+ "steps": 16,
+ "examples_seen": 124,
+ "share_of_plan": 1.0,
+ "loss_first20": 0.4734823077917099,
+ "loss_last20": 0.3760692343115807,
+ "stopped_by_deadline": false,
+ "quantized": true
+}
