@@ -1,8 +1,0 @@
-STUDY 14 REPORT, run C (study14/0.3, code 63efd22b7ae30ea4); data of runs ['C']
-
-training H: teacher rows 256, examples 205, info None
-training M: teacher rows 150, examples 137, info None
-
-activation probe: train n None, train AUROC n/a
-
-pre-registered decisions: {"V5_probes_trained": {}, "V6_activation_probe": {"error": "not enough training excerpts"}, "V13_bigger_monitor": {}, "Q_gates": {"play": {}, "judges": {}}}
